@@ -15,8 +15,8 @@ def get_response(question):
     response=chat.send_message(question,stream=True)
     return response
 
-st.set_page_config(page_title="ChatBuddy")
-st.header("ChatBuddy: Your Personal Chat Assistant 😎")
+st.set_page_config(page_title="ChatXpert")
+st.header("ChatXpert: Your Personal Chat Assistant 😎")
 
  # Add "Connect with Sandeep" button with LinkedIn profile link
 if st.button("Connect with Sandeep"):
